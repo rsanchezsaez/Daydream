@@ -355,13 +355,13 @@
 				TargetAttributes = {
 					031BC8971E43D8B90007BEA3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9M5CS7L3FF;
+						DevelopmentTeam = WCPWG6KJDD;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					DF3EA7A61FF783690032F2ED = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 9M5CS7L3FF;
+						DevelopmentTeam = WCPWG6KJDD;
 						ProvisioningStyle = Automatic;
 					};
 					DF5CA95F1FF7840B00A632D8 = {
@@ -612,10 +612,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 9M5CS7L3FF;
+				DEVELOPMENT_TEAM = WCPWG6KJDD;
 				INFOPLIST_FILE = DaydreamSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Daydream.DaydreamSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rss.Daydream.DaydreamSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DaydreamSample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -628,10 +628,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 9M5CS7L3FF;
+				DEVELOPMENT_TEAM = WCPWG6KJDD;
 				INFOPLIST_FILE = DaydreamSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Daydream.DaydreamSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rss.Daydream.DaydreamSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DaydreamSample-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -654,7 +654,7 @@
 				CODE_SIGN_ENTITLEMENTS = "DaydreamSample-mac/DaydreamSample_mac.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9M5CS7L3FF;
+				DEVELOPMENT_TEAM = WCPWG6KJDD;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "DaydreamSample-mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -681,7 +681,7 @@
 				CODE_SIGN_ENTITLEMENTS = "DaydreamSample-mac/DaydreamSample_mac.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9M5CS7L3FF;
+				DEVELOPMENT_TEAM = WCPWG6KJDD;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "DaydreamSample-mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
