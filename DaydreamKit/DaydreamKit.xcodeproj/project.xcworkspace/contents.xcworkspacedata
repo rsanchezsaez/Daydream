@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/sachin/Documents/Open Source/Daydream/Daydream/Daydream.xcodeproj">
+      location = "self:DaydreamKit.xcodeproj">
    </FileRef>
 </Workspace>

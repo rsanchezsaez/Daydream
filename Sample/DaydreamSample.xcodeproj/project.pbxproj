@@ -12,112 +12,34 @@
 		031BC8A31E43D8B90007BEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031BC8A21E43D8B90007BEA3 /* Assets.xcassets */; };
 		031BC8A61E43D8B90007BEA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031BC8A41E43D8B90007BEA3 /* LaunchScreen.storyboard */; };
 		031BC8B91E44129C0007BEA3 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BC8B81E44129C0007BEA3 /* DiscoveryViewController.swift */; };
-		DF3EA7A21FF783160032F2ED /* DCConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3EA7A01FF7633E0032F2ED /* DCConnectionManager.m */; };
-		DF3EA7AB1FF783690032F2ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3EA7AA1FF783690032F2ED /* AppDelegate.m */; };
-		DF3EA7AD1FF783690032F2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3EA7AC1FF783690032F2ED /* Assets.xcassets */; };
-		DF3EA7B01FF783690032F2ED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF3EA7AE1FF783690032F2ED /* MainMenu.xib */; };
-		DF3EA7B31FF783690032F2ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3EA7B21FF783690032F2ED /* main.m */; };
-		DF5CA9631FF7840B00A632D8 /* DaydreamLib_macos.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5CA9621FF7840B00A632D8 /* DaydreamLib_macos.h */; };
-		DF5CA9651FF7840B00A632D8 /* DaydreamLib_macos.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5CA9641FF7840B00A632D8 /* DaydreamLib_macos.m */; };
-		DF5CA96B1FF7842400A632D8 /* libDaydreamLib-macos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5CA9601FF7840B00A632D8 /* libDaydreamLib-macos.a */; };
-		DF5CA96C1FF7845E00A632D8 /* DaydreamLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFAB8EA51FF7616200938F4F /* DaydreamLib.mm */; };
-		DF5CA96D1FF7845E00A632D8 /* DCConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3EA7A01FF7633E0032F2ED /* DCConnectionManager.m */; };
-		DF5CA96E1FF7845E00A632D8 /* DCController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D5991FF6FF7A00339EF8 /* DCController.m */; };
-		DF5CA96F1FF7845E00A632D8 /* DCTouchpad.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D59C1FF70D2E00339EF8 /* DCTouchpad.m */; };
-		DF5CA9701FF7845E00A632D8 /* DCControllerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D59F1FF70EBE00339EF8 /* DCControllerButton.m */; };
-		DF5CA9711FF7845E00A632D8 /* NSData+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4078181FF71B2A006E2C3C /* NSData+Extensions.m */; };
-		DF5CA9721FF7845E00A632D8 /* CoreBluetooth+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD55E5E1FF715A600959076 /* CoreBluetooth+Extensions.m */; };
-		DF5CA9731FF7845E00A632D8 /* DCControllerState.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D5961FF6F89200339EF8 /* DCControllerState.m */; };
-		DF5CA9741FF7845E00A632D8 /* OrientationDataParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7105E1FF37BD70053090E /* OrientationDataParsing.m */; };
-		DF5CA9751FF7845E00A632D8 /* Vect3.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D5931FF6F10400339EF8 /* Vect3.m */; };
-		DF5CA9761FF7845E00A632D8 /* Quaternion.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D5901FF6F02700339EF8 /* Quaternion.m */; };
-		DFAB8EA61FF7616200938F4F /* DaydreamLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFAB8EA51FF7616200938F4F /* DaydreamLib.mm */; };
-		DFAB8EA71FF7616200938F4F /* DaydreamLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DFAB8EA41FF7616200938F4F /* DaydreamLib.h */; };
-		DFAB8EAB1FF7618100938F4F /* DCTouchpad.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D59C1FF70D2E00339EF8 /* DCTouchpad.m */; };
-		DFAB8EAD1FF7618100938F4F /* DCControllerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D59F1FF70EBE00339EF8 /* DCControllerButton.m */; };
-		DFAB8EAE1FF7618100938F4F /* CoreBluetooth+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD55E5E1FF715A600959076 /* CoreBluetooth+Extensions.m */; };
-		DFAB8EAF1FF7618100938F4F /* DCControllerState.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D5961FF6F89200339EF8 /* DCControllerState.m */; };
-		DFAB8EB01FF7618100938F4F /* Vect3.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D5931FF6F10400339EF8 /* Vect3.m */; };
-		DFAB8EB11FF7618100938F4F /* NSData+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4078181FF71B2A006E2C3C /* NSData+Extensions.m */; };
-		DFAB8EB21FF7618100938F4F /* Quaternion.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D5901FF6F02700339EF8 /* Quaternion.m */; };
-		DFAB8EB31FF7618100938F4F /* DCController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47D5991FF6FF7A00339EF8 /* DCController.m */; };
-		DFAB8EB41FF7618100938F4F /* OrientationDataParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7105E1FF37BD70053090E /* OrientationDataParsing.m */; };
-		DFAB8EB61FF7620B00938F4F /* libDaydreamLib-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAB8EA21FF7616200938F4F /* libDaydreamLib-iOS.a */; };
+		BCCB84732111996B00D40B5B /* DaydreamKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCB84722111996B00D40B5B /* DaydreamKit.framework */; };
+		BCCB84742111996B00D40B5B /* DaydreamKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BCCB84722111996B00D40B5B /* DaydreamKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DF5CA9691FF7841F00A632D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 031BC8901E43D8B90007BEA3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF5CA95F1FF7840B00A632D8;
-			remoteInfo = "DaydreamLib-macos";
-		};
-		DFAB8EB71FF7621100938F4F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 031BC8901E43D8B90007BEA3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DFAB8EA11FF7616200938F4F;
-			remoteInfo = DaydreamLib;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		DFAB8EA01FF7616200938F4F /* CopyFiles */ = {
+		BCCB84752111996B00D40B5B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
+			dstPath = "";
+			dstSubfolderSpec = 10;
 			files = (
-				DFAB8EA71FF7616200938F4F /* DaydreamLib.h in CopyFiles */,
+				BCCB84742111996B00D40B5B /* DaydreamKit.framework in Embed Frameworks */,
 			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		031BC8981E43D8B90007BEA3 /* DaydreamSample-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DaydreamSample-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		031BC8981E43D8B90007BEA3 /* DaydreamSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaydreamSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		031BC89B1E43D8B90007BEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		031BC89D1E43D8B90007BEA3 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		031BC8A21E43D8B90007BEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		031BC8A51E43D8B90007BEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		031BC8A71E43D8B90007BEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		031BC8B81E44129C0007BEA3 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
-		DF3EA79F1FF7633E0032F2ED /* DCConnectionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCConnectionManager.h; sourceTree = "<group>"; };
-		DF3EA7A01FF7633E0032F2ED /* DCConnectionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCConnectionManager.m; sourceTree = "<group>"; };
-		DF3EA7A71FF783690032F2ED /* DaydreamSample-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DaydreamSample-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3EA7A91FF783690032F2ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DF3EA7AA1FF783690032F2ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF3EA7AC1FF783690032F2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF3EA7AF1FF783690032F2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		DF3EA7B11FF783690032F2ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF3EA7B21FF783690032F2ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DF3EA7B41FF783690032F2ED /* DaydreamSample_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DaydreamSample_mac.entitlements; sourceTree = "<group>"; };
-		DF4078171FF71B2A006E2C3C /* NSData+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Extensions.h"; sourceTree = "<group>"; };
-		DF4078181FF71B2A006E2C3C /* NSData+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Extensions.m"; sourceTree = "<group>"; };
-		DF47D58F1FF6F02700339EF8 /* Quaternion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
-		DF47D5901FF6F02700339EF8 /* Quaternion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quaternion.m; sourceTree = "<group>"; };
-		DF47D5921FF6F10400339EF8 /* Vect3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vect3.h; sourceTree = "<group>"; };
-		DF47D5931FF6F10400339EF8 /* Vect3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vect3.m; sourceTree = "<group>"; };
-		DF47D5951FF6F89200339EF8 /* DCControllerState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCControllerState.h; sourceTree = "<group>"; };
-		DF47D5961FF6F89200339EF8 /* DCControllerState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCControllerState.m; sourceTree = "<group>"; };
-		DF47D5981FF6FF7A00339EF8 /* DCController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCController.h; sourceTree = "<group>"; };
-		DF47D5991FF6FF7A00339EF8 /* DCController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCController.m; sourceTree = "<group>"; };
-		DF47D59B1FF70D2E00339EF8 /* DCTouchpad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTouchpad.h; sourceTree = "<group>"; };
-		DF47D59C1FF70D2E00339EF8 /* DCTouchpad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTouchpad.m; sourceTree = "<group>"; };
-		DF47D59E1FF70EBE00339EF8 /* DCControllerButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCControllerButton.h; sourceTree = "<group>"; };
-		DF47D59F1FF70EBE00339EF8 /* DCControllerButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCControllerButton.m; sourceTree = "<group>"; };
-		DF5CA9601FF7840B00A632D8 /* libDaydreamLib-macos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libDaydreamLib-macos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF5CA9621FF7840B00A632D8 /* DaydreamLib_macos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaydreamLib_macos.h; sourceTree = "<group>"; };
-		DF5CA9641FF7840B00A632D8 /* DaydreamLib_macos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaydreamLib_macos.m; sourceTree = "<group>"; };
+		BCCB84722111996B00D40B5B /* DaydreamKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DaydreamKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA710551FF33FB60053090E /* DaydreamSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DaydreamSample-Bridging-Header.h"; sourceTree = "<group>"; };
-		DFA7105D1FF37BD70053090E /* OrientationDataParsing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationDataParsing.h; sourceTree = "<group>"; };
-		DFA7105E1FF37BD70053090E /* OrientationDataParsing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationDataParsing.m; sourceTree = "<group>"; };
-		DFAB8EA21FF7616200938F4F /* libDaydreamLib-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libDaydreamLib-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFAB8EA41FF7616200938F4F /* DaydreamLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaydreamLib.h; sourceTree = "<group>"; };
-		DFAB8EA51FF7616200938F4F /* DaydreamLib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DaydreamLib.mm; sourceTree = "<group>"; };
-		DFD55E5D1FF715A600959076 /* CoreBluetooth+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreBluetooth+Extensions.h"; sourceTree = "<group>"; };
-		DFD55E5E1FF715A600959076 /* CoreBluetooth+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CoreBluetooth+Extensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,29 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFAB8EB61FF7620B00938F4F /* libDaydreamLib-iOS.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF3EA7A41FF783690032F2ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF5CA96B1FF7842400A632D8 /* libDaydreamLib-macos.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF5CA95D1FF7840B00A632D8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFAB8E9F1FF7616200938F4F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BCCB84732111996B00D40B5B /* DaydreamKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,11 +57,9 @@
 		031BC88F1E43D8B90007BEA3 = {
 			isa = PBXGroup;
 			children = (
-				031BC8AD1E43DFB50007BEA3 /* Daydream */,
-				031BC89A1E43D8B90007BEA3 /* DaydreamSample-ios */,
-				DF3EA7A81FF783690032F2ED /* DaydreamSample-mac */,
-				DFAB8EA31FF7616200938F4F /* DaydreamLib */,
-				DF5CA9611FF7840B00A632D8 /* DaydreamLib-macos */,
+				BCCB84722111996B00D40B5B /* DaydreamKit.framework */,
+				DFA710551FF33FB60053090E /* DaydreamSample-Bridging-Header.h */,
+				031BC89A1E43D8B90007BEA3 /* DaydreamSample */,
 				031BC8991E43D8B90007BEA3 /* Products */,
 				DFAB8EB51FF7620B00938F4F /* Frameworks */,
 			);
@@ -170,15 +68,12 @@
 		031BC8991E43D8B90007BEA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				031BC8981E43D8B90007BEA3 /* DaydreamSample-iOS.app */,
-				DFAB8EA21FF7616200938F4F /* libDaydreamLib-iOS.a */,
-				DF3EA7A71FF783690032F2ED /* DaydreamSample-macos.app */,
-				DF5CA9601FF7840B00A632D8 /* libDaydreamLib-macos.a */,
+				031BC8981E43D8B90007BEA3 /* DaydreamSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		031BC89A1E43D8B90007BEA3 /* DaydreamSample-ios */ = {
+		031BC89A1E43D8B90007BEA3 /* DaydreamSample */ = {
 			isa = PBXGroup;
 			children = (
 				031BC89B1E43D8B90007BEA3 /* AppDelegate.swift */,
@@ -188,68 +83,7 @@
 				031BC8A41E43D8B90007BEA3 /* LaunchScreen.storyboard */,
 				031BC8A71E43D8B90007BEA3 /* Info.plist */,
 			);
-			name = "DaydreamSample-ios";
 			path = DaydreamSample;
-			sourceTree = "<group>";
-		};
-		031BC8AD1E43DFB50007BEA3 /* Daydream */ = {
-			isa = PBXGroup;
-			children = (
-				DFA710551FF33FB60053090E /* DaydreamSample-Bridging-Header.h */,
-			);
-			name = Daydream;
-			sourceTree = "<group>";
-		};
-		DF3EA7A81FF783690032F2ED /* DaydreamSample-mac */ = {
-			isa = PBXGroup;
-			children = (
-				DF3EA7A91FF783690032F2ED /* AppDelegate.h */,
-				DF3EA7AA1FF783690032F2ED /* AppDelegate.m */,
-				DF3EA7AC1FF783690032F2ED /* Assets.xcassets */,
-				DF3EA7AE1FF783690032F2ED /* MainMenu.xib */,
-				DF3EA7B11FF783690032F2ED /* Info.plist */,
-				DF3EA7B21FF783690032F2ED /* main.m */,
-				DF3EA7B41FF783690032F2ED /* DaydreamSample_mac.entitlements */,
-			);
-			path = "DaydreamSample-mac";
-			sourceTree = "<group>";
-		};
-		DF5CA9611FF7840B00A632D8 /* DaydreamLib-macos */ = {
-			isa = PBXGroup;
-			children = (
-				DF5CA9621FF7840B00A632D8 /* DaydreamLib_macos.h */,
-				DF5CA9641FF7840B00A632D8 /* DaydreamLib_macos.m */,
-			);
-			path = "DaydreamLib-macos";
-			sourceTree = "<group>";
-		};
-		DFAB8EA31FF7616200938F4F /* DaydreamLib */ = {
-			isa = PBXGroup;
-			children = (
-				DFAB8EA41FF7616200938F4F /* DaydreamLib.h */,
-				DFAB8EA51FF7616200938F4F /* DaydreamLib.mm */,
-				DF3EA79F1FF7633E0032F2ED /* DCConnectionManager.h */,
-				DF3EA7A01FF7633E0032F2ED /* DCConnectionManager.m */,
-				DF47D5981FF6FF7A00339EF8 /* DCController.h */,
-				DF47D5991FF6FF7A00339EF8 /* DCController.m */,
-				DF47D59B1FF70D2E00339EF8 /* DCTouchpad.h */,
-				DF47D59C1FF70D2E00339EF8 /* DCTouchpad.m */,
-				DF47D59E1FF70EBE00339EF8 /* DCControllerButton.h */,
-				DF47D59F1FF70EBE00339EF8 /* DCControllerButton.m */,
-				DF4078171FF71B2A006E2C3C /* NSData+Extensions.h */,
-				DF4078181FF71B2A006E2C3C /* NSData+Extensions.m */,
-				DFD55E5D1FF715A600959076 /* CoreBluetooth+Extensions.h */,
-				DFD55E5E1FF715A600959076 /* CoreBluetooth+Extensions.m */,
-				DF47D5951FF6F89200339EF8 /* DCControllerState.h */,
-				DF47D5961FF6F89200339EF8 /* DCControllerState.m */,
-				DFA7105D1FF37BD70053090E /* OrientationDataParsing.h */,
-				DFA7105E1FF37BD70053090E /* OrientationDataParsing.m */,
-				DF47D5921FF6F10400339EF8 /* Vect3.h */,
-				DF47D5931FF6F10400339EF8 /* Vect3.m */,
-				DF47D58F1FF6F02700339EF8 /* Quaternion.h */,
-				DF47D5901FF6F02700339EF8 /* Quaternion.m */,
-			);
-			path = DaydreamLib;
 			sourceTree = "<group>";
 		};
 		DFAB8EB51FF7620B00938F4F /* Frameworks */ = {
@@ -261,87 +95,24 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		DF5CA95E1FF7840B00A632D8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF5CA9631FF7840B00A632D8 /* DaydreamLib_macos.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		031BC8971E43D8B90007BEA3 /* DaydreamSample-iOS */ = {
+		031BC8971E43D8B90007BEA3 /* DaydreamSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 031BC8AA1E43D8B90007BEA3 /* Build configuration list for PBXNativeTarget "DaydreamSample-iOS" */;
+			buildConfigurationList = 031BC8AA1E43D8B90007BEA3 /* Build configuration list for PBXNativeTarget "DaydreamSample" */;
 			buildPhases = (
 				031BC8941E43D8B90007BEA3 /* Sources */,
 				031BC8951E43D8B90007BEA3 /* Frameworks */,
 				031BC8961E43D8B90007BEA3 /* Resources */,
+				BCCB84752111996B00D40B5B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DFAB8EB81FF7621100938F4F /* PBXTargetDependency */,
 			);
-			name = "DaydreamSample-iOS";
+			name = DaydreamSample;
 			productName = DaydreamSample;
-			productReference = 031BC8981E43D8B90007BEA3 /* DaydreamSample-iOS.app */;
+			productReference = 031BC8981E43D8B90007BEA3 /* DaydreamSample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DF3EA7A61FF783690032F2ED /* DaydreamSample-macos */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF3EA7B51FF783690032F2ED /* Build configuration list for PBXNativeTarget "DaydreamSample-macos" */;
-			buildPhases = (
-				DF3EA7A31FF783690032F2ED /* Sources */,
-				DF3EA7A41FF783690032F2ED /* Frameworks */,
-				DF3EA7A51FF783690032F2ED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF5CA96A1FF7841F00A632D8 /* PBXTargetDependency */,
-			);
-			name = "DaydreamSample-macos";
-			productName = "DaydreamSample-mac";
-			productReference = DF3EA7A71FF783690032F2ED /* DaydreamSample-macos.app */;
-			productType = "com.apple.product-type.application";
-		};
-		DF5CA95F1FF7840B00A632D8 /* DaydreamLib-macos */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF5CA9661FF7840B00A632D8 /* Build configuration list for PBXNativeTarget "DaydreamLib-macos" */;
-			buildPhases = (
-				DF5CA95C1FF7840B00A632D8 /* Sources */,
-				DF5CA95D1FF7840B00A632D8 /* Frameworks */,
-				DF5CA95E1FF7840B00A632D8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DaydreamLib-macos";
-			productName = "DaydreamLib-macos";
-			productReference = DF5CA9601FF7840B00A632D8 /* libDaydreamLib-macos.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		DFAB8EA11FF7616200938F4F /* DaydreamLib-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DFAB8EA81FF7616200938F4F /* Build configuration list for PBXNativeTarget "DaydreamLib-iOS" */;
-			buildPhases = (
-				DFAB8E9E1FF7616200938F4F /* Sources */,
-				DFAB8E9F1FF7616200938F4F /* Frameworks */,
-				DFAB8EA01FF7616200938F4F /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DaydreamLib-iOS";
-			productName = DaydreamLib;
-			productReference = DFAB8EA21FF7616200938F4F /* libDaydreamLib-iOS.a */;
-			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -359,21 +130,6 @@
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
-					DF3EA7A61FF783690032F2ED = {
-						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = WCPWG6KJDD;
-						ProvisioningStyle = Automatic;
-					};
-					DF5CA95F1FF7840B00A632D8 = {
-						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 9M5CS7L3FF;
-						ProvisioningStyle = Automatic;
-					};
-					DFAB8EA11FF7616200938F4F = {
-						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 9M5CS7L3FF;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = 031BC8931E43D8B90007BEA3 /* Build configuration list for PBXProject "DaydreamSample" */;
@@ -389,10 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				031BC8971E43D8B90007BEA3 /* DaydreamSample-iOS */,
-				DFAB8EA11FF7616200938F4F /* DaydreamLib-iOS */,
-				DF3EA7A61FF783690032F2ED /* DaydreamSample-macos */,
-				DF5CA95F1FF7840B00A632D8 /* DaydreamLib-macos */,
+				031BC8971E43D8B90007BEA3 /* DaydreamSample */,
 			);
 		};
 /* End PBXProject section */
@@ -404,15 +157,6 @@
 			files = (
 				031BC8A61E43D8B90007BEA3 /* LaunchScreen.storyboard in Resources */,
 				031BC8A31E43D8B90007BEA3 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF3EA7A51FF783690032F2ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF3EA7AD1FF783690032F2ED /* Assets.xcassets in Resources */,
-				DF3EA7B01FF783690032F2ED /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,66 +173,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF3EA7A31FF783690032F2ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF3EA7B31FF783690032F2ED /* main.m in Sources */,
-				DF3EA7AB1FF783690032F2ED /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF5CA95C1FF7840B00A632D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF5CA96F1FF7845E00A632D8 /* DCTouchpad.m in Sources */,
-				DF5CA96E1FF7845E00A632D8 /* DCController.m in Sources */,
-				DF5CA9701FF7845E00A632D8 /* DCControllerButton.m in Sources */,
-				DF5CA96C1FF7845E00A632D8 /* DaydreamLib.mm in Sources */,
-				DF5CA9651FF7840B00A632D8 /* DaydreamLib_macos.m in Sources */,
-				DF5CA9741FF7845E00A632D8 /* OrientationDataParsing.m in Sources */,
-				DF5CA96D1FF7845E00A632D8 /* DCConnectionManager.m in Sources */,
-				DF5CA9751FF7845E00A632D8 /* Vect3.m in Sources */,
-				DF5CA9711FF7845E00A632D8 /* NSData+Extensions.m in Sources */,
-				DF5CA9761FF7845E00A632D8 /* Quaternion.m in Sources */,
-				DF5CA9731FF7845E00A632D8 /* DCControllerState.m in Sources */,
-				DF5CA9721FF7845E00A632D8 /* CoreBluetooth+Extensions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFAB8E9E1FF7616200938F4F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFAB8EAE1FF7618100938F4F /* CoreBluetooth+Extensions.m in Sources */,
-				DFAB8EAB1FF7618100938F4F /* DCTouchpad.m in Sources */,
-				DFAB8EB21FF7618100938F4F /* Quaternion.m in Sources */,
-				DFAB8EAD1FF7618100938F4F /* DCControllerButton.m in Sources */,
-				DF3EA7A21FF783160032F2ED /* DCConnectionManager.m in Sources */,
-				DFAB8EB41FF7618100938F4F /* OrientationDataParsing.m in Sources */,
-				DFAB8EB11FF7618100938F4F /* NSData+Extensions.m in Sources */,
-				DFAB8EB01FF7618100938F4F /* Vect3.m in Sources */,
-				DFAB8EAF1FF7618100938F4F /* DCControllerState.m in Sources */,
-				DFAB8EB31FF7618100938F4F /* DCController.m in Sources */,
-				DFAB8EA61FF7616200938F4F /* DaydreamLib.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DF5CA96A1FF7841F00A632D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DF5CA95F1FF7840B00A632D8 /* DaydreamLib-macos */;
-			targetProxy = DF5CA9691FF7841F00A632D8 /* PBXContainerItemProxy */;
-		};
-		DFAB8EB81FF7621100938F4F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DFAB8EA11FF7616200938F4F /* DaydreamLib-iOS */;
-			targetProxy = DFAB8EB71FF7621100938F4F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		031BC8A41E43D8B90007BEA3 /* LaunchScreen.storyboard */ = {
@@ -497,14 +182,6 @@
 				031BC8A51E43D8B90007BEA3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		DF3EA7AE1FF783690032F2ED /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF3EA7AF1FF783690032F2ED /* Base */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -654,152 +331,6 @@
 			};
 			name = Release;
 		};
-		DF3EA7B61FF783690032F2ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "DaydreamSample-mac/DaydreamSample_mac.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WCPWG6KJDD;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "DaydreamSample-mac/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.davidcairns.DaydreamSample-mac";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		DF3EA7B71FF783690032F2ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "DaydreamSample-mac/DaydreamSample_mac.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WCPWG6KJDD;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "DaydreamSample-mac/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.davidcairns.DaydreamSample-mac";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		DF5CA9671FF7840B00A632D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9M5CS7L3FF;
-				EXECUTABLE_PREFIX = lib;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		DF5CA9681FF7840B00A632D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9M5CS7L3FF;
-				EXECUTABLE_PREFIX = lib;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		DFAB8EA91FF7616200938F4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9M5CS7L3FF;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DFAB8EAA1FF7616200938F4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9M5CS7L3FF;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -812,38 +343,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		031BC8AA1E43D8B90007BEA3 /* Build configuration list for PBXNativeTarget "DaydreamSample-iOS" */ = {
+		031BC8AA1E43D8B90007BEA3 /* Build configuration list for PBXNativeTarget "DaydreamSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				031BC8AB1E43D8B90007BEA3 /* Debug */,
 				031BC8AC1E43D8B90007BEA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF3EA7B51FF783690032F2ED /* Build configuration list for PBXNativeTarget "DaydreamSample-macos" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF3EA7B61FF783690032F2ED /* Debug */,
-				DF3EA7B71FF783690032F2ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF5CA9661FF7840B00A632D8 /* Build configuration list for PBXNativeTarget "DaydreamLib-macos" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF5CA9671FF7840B00A632D8 /* Debug */,
-				DF5CA9681FF7840B00A632D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DFAB8EA81FF7616200938F4F /* Build configuration list for PBXNativeTarget "DaydreamLib-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DFAB8EA91FF7616200938F4F /* Debug */,
-				DFAB8EAA1FF7616200938F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
